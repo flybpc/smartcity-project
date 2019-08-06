@@ -1,0 +1,23 @@
+{
+  "intro": {
+    "type": "string",
+    "ui": {
+      "widget": "textDisplay",
+      "description": "1.以公民身份号码或法人和其他组织统一社会信用代码为唯一标识的电子证照使用率："
+    }
+  },
+  "name": {
+    "type": "number",
+    "title": "①已实现使用以公民身份号码或法人和其他组织统一社会信用代码为唯一标识的电子证照办理的政务服务事项数量:"        
+  },
+  "mobile": {
+    "type": "number",
+    "format": "mobile",
+    "title": "手机号"
+  },
+  "sfz": {
+    "type": "number",
+    "format": "id-card",
+    "title": "身份证号"
+  }
+}
